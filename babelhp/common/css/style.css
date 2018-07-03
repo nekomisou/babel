@@ -1,0 +1,190 @@
+@import url(/common/css/reset.css);
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: relative;
+}
+
+header .kv {
+  width: 100%;
+  height: 100vh;
+}
+
+header .top-title {
+  display: none;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav li {
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  /*display: table-cell;*/
+  font-size: 14px;
+}
+
+nav a {
+  color: #fff;
+  line-height: 16px;
+  padding: 9px 0px;
+  display: block;
+}
+
+.first, .sixth {
+  padding: 50px 0;
+}
+
+.img-wrap {
+  width: 93.75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.s-img {
+  width: 48.33%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.s-img img {
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn a {
+  width: 46.87%;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+  border: 2px #333 solid;
+  box-shadow: 1px 1px 2px #333;
+}
+
+.sixth {
+  background-color: #000;
+}
+
+.sixth h2 {
+  color: #fff;
+}
+
+.sixth .s-img {
+  margin-bottom: 0;
+}
+
+.sixth .btn a {
+  width: 46.87%;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
+.sixth a {
+  color: #fff;
+}
+
+.second {
+  width: 100%;
+  height: 300px;
+  padding: 70px 0;
+  background: url(/common/imges/top/kunkama.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.second h2 {
+  color: #fff;
+}
+
+.second p {
+  color: #fff;
+}
+
+.map {
+  width: 100%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.info {
+  text-align: left;
+  width: 100%;
+}
+
+.info dl {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info dt {
+  width: 30%;
+  text-align: right;
+}
+
+.info dd {
+  width: 70%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .tw {
+  width: 84.37%;
+  margin: 0 auto;
+}
