@@ -6,15 +6,25 @@
     <meta name="description" content="阿佐ヶ谷駅北口を出て徒歩1分、黒い佇まいのお店。Bar BABELは「ちょっと、ひと休み。」をコンセプトにした缶詰バーです。" />
     <meta name="keywords" content="Bar,BAR,バー,阿佐ヶ谷,バベル,babel,BABEL,Bar Babel,bar babel,asagaya,asagaya babel,阿佐ヶ谷バベル,阿佐ヶ谷バーバベル," />
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/common/css/style.css">
+    <link rel="stylesheet" href="common/css/style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="/common/js/script.js"></script>
  
 </head>
 <body>
 <!--header----------------------------------->
-<?php include('common/inc/header.html'); ?>
-
+<header>
+    <h1><a href="/index.html"><img src="/common/imges/top/top.jpg" alt="トップ画像" class="kv"></a></h1>
+    <p class="top-title"><img src="/common/imges/top/top-title.png" alt=""></p>
+    <nav>
+        <ul>
+            <li><a href="#menu">メニュー<br>MENU</a></li>
+            <li><a href="#map">地図<br>MAP</a></li>
+            <li><a href="#info">お問合わせ<br>INFO</a></li>
+            <li><a href="#photo">写真<br>PHOTO</a></li>
+        </ul>
+    </nav>
+</header>
 <!--main------------------------------------->
     <main>
 <!--メニュー-->
@@ -81,6 +91,21 @@
     </main>
     
 <!--fooder----------------------------------->
- <?php include('common/inc/footer.html'); ?>
+ <footer>
+<!--twitter
+------------------------>
+    <div class="tw" id="twitter">
+        <a class="twitter-timeline" data-width="" data-height="500" data-theme="dark" href="https://twitter.com/BarBABEL1122?ref_src=twsrc%5Etfw">Tweets by BarBABEL1122</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+		
+<!--右側テキスト
+------------------------>
+    <div class="footer-text"><!--コメント-->
+            <p>Twitter毎日更新してます。気に入ったらフォローして下さいね。<br>見てると良い事有るかもよ!?</p>
+            <p>当店Wi-Fiご利用頂けます。<br>詳しくは店長まで。</p>
+            <p>イベントなど貸し切りにも対応！<br>アイデア次第で、多目的にご利用頂けます。なんでもお気軽にお問い合わせ下さい。</p>
+            <p>当店が在ります阿佐ヶ谷では、1年を通していろいろなイベントを行っております。お近くにいらした際は<a href="http://www.asagaya.or.jp/">阿佐ヶ谷商店街</a>にもどうぞ。</p>
+    </div>
+</footer>
 </body>
 </html>
